@@ -71,6 +71,8 @@ body {
 		margin: 0px 30px 30px 30px;
 	}
 .text .val {
-	font-size: 30px;
+	font-size: 38px;
 }
+.text .type-time {
+	font-size: 13px; }
 }
