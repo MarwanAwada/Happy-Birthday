@@ -70,5 +70,7 @@ body {
 	.clock-item {
 		margin: 0px 30px 30px 30px;
 	}
+.text .val {
+	font-size: 20px;
 
 }
