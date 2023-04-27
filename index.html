@@ -19,7 +19,7 @@
 
 <article class="countdown countdown-container container">
     <section> <h1 id="happy"></h1> <h1 id="letter"></h1></section>
-    <div class="clock row">
+    <div class="clock row" id="remove">
         <div class="clock-item clock-days countdown-time-value col-xs-4 col-sm-6 col-md-3">
             <div class="wrap">
                 <div class="inner">
@@ -90,7 +90,7 @@
 
      if (timeleft < 0) {
         clearInterval(myfunc);
-        $("div").remove();
+        document.getElementById("remove").remove();
         document.getElementById("happy").innerHTML = "HAPPY BIRTHDAY"
         document.getElementById("letter").innerHTML = "В тот же день, как и сегодня, родился очень добрый, заботливый, весёлый, милый, красивый и умный человек... Можно просто сказать, что в тот же день родилась легенда или чудо. В тот же день, как и сегодня, Бог послал мне с неба падающую звезду, сокровище, которое не может быть измерено всем золотом и деньгами этого мира, и я благодарен за то, что это великолепное сокровище есть в моей скромной жизни. Слова не могут описать, как я счастлив, что ты есть в моей жизни, так что с днём рождения, братик, желаю тебе всего наилучшего в этом мире, потому что самый лучший брат в этом мире заслуживает самое лучшее."
 
