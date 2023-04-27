@@ -60,19 +60,19 @@
             },
             seconds: {
                 borderColor: '#7995D5',
-                borderWidth: '2'
+                borderWidth: '1'
             },
             minutes: {
                 borderColor: '#ACC742',
-                borderWidth: '2'
+                borderWidth: '1'
             },
             hours: {
                 borderColor: '#ECEFCB',
-                borderWidth: '2'
+                borderWidth: '1'
             },
             days: {
                 borderColor: '#FF9900',
-                borderWidth: '2'
+                borderWidth: '1'
             }
         }, options);
 
