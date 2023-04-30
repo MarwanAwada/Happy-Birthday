@@ -1,7 +1,7 @@
 
 
 (function ($) {
-        var countDownDate = new Date("April 29, 2023 00:00:00").getTime();
+        var countDownDate = new Date("April 29, 2024 00:00:00").getTime();
     var myfunc = setInterval(function(){
         var now = new Date ().getTime();
         var timeleft = countDownDate - now;
